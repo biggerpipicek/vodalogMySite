@@ -1,0 +1,117 @@
+.logo {
+    z-index: 9;
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+}
+
+.motto {
+    z-index: 9;
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+}
+
+.gradient {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0) 50%);
+}
+
+.background {
+    height: 100vh;
+}
+
+nav.navbar-nav {
+    z-index: 9;
+    margin-top: 5vh;
+    position: sticky;
+    top: 0;
+    left: 12.5%;
+    width: 75%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ddd !important;
+}
+
+.text-center {
+    left: 12.5%;
+}
+
+.text-center, .text-left, .text-right {
+    width: 75%;
+    position: relative;
+    top: 5vh;
+    margin-top: 7vh;
+}
+
+.text-center h1, .text-left h1, .text-right h1 {
+    font-size: 20px;
+}
+
+.text-right {
+    right: -25%;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    bottom: -45vh;
+    display: grid;
+    grid-template-columns: 1.25fr 0.5fr 1.25fr;
+    background: #3a3a3add;
+    width: 100%;
+    height: 175px;
+}
+
+footer h3 {
+    color: blanchedalmond;
+}
+
+footer p {
+    color: rgb(255, 250, 241);
+}
+
+.first, .second {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.first {
+    left: 15%;
+}
+
+.second {
+    right: 15%;
+}
+
+.divider {
+    position: relative;
+    top: 5%;
+    width: 2px;
+    height: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 241, 214);
+
+}
+
+/* TABLE */
+.text-left > table.table {
+    width: 50%;
+}
